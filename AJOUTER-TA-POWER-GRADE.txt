@@ -1,0 +1,40 @@
+CREATIVE LOOK — AJOUTER TA PROPRE POWER GRADE
+=============================================
+
+Creative Look n'est livré avec aucune power grade : chacun utilise la sienne. Le panneau l'applique sur le plan,
+puis pose le look sur le bon node.
+
+1. PRÉPARER TA POWER GRADE DANS RESOLVE
+   Nomme les nodes (clic droit sur un node > Node Label) pour que le panneau les reconnaisse :
+     LUT        le node qui reçoit le look (obligatoire)
+     Exp        l'exposition et l'équilibre automatique
+     Look       le contraste (sinon il va dans Exp)
+     WB         la balance des blancs automatique
+     Film Look  l'émulation pellicule (power grade film seulement : CST de sortie en Cineon Film Log)
+
+2. L'EXPORTER
+   Page Color > Gallery > clic droit sur ta still de power grade > Export. Tu obtiens un fichier .drx
+   (Resolve écrit souvent un second fichier à côté, garde les deux ensemble).
+
+3. LA DÉPOSER DANS LE BON DOSSIER
+   Copie le fichier .drx (et son compagnon) dans le dossier « data » du plugin :
+
+     /Library/Application Support/Blackmagic Design/DaVinci Resolve/Workflow Integration Plugins/Creative Look/data/
+
+   Astuce : dans le Finder, menu Aller > Aller au dossier… (Cmd+Maj+G), puis colle ce chemin.
+
+   Comment le panneau choisit :
+   - Power grade vidéo : le fichier nommé « powergrade.drx », sinon n'importe quel .drx sans le mot « film »
+     dans son nom.
+   - Power grade film (mode Film) : un .drx avec le mot « film » dans son nom, par exemple « Film Look.drx ».
+     S'il y en a plusieurs, le plus récent gagne.
+   - Le dossier est relu à chaque application : pas besoin de redémarrer Resolve.
+
+   Autre méthode, sans copier de fichier : dans le panneau, « … » > Utiliser ma power grade, puis choisis ton .drx.
+   La power grade choisie ainsi passe avant celles du dossier « data ».
+
+4. VÉRIFIER
+   Ouvre un plan dans la page Color, puis dans le panneau « … » > Diagnostic de la power grade. Il dit quelle
+   power grade est utilisée et quels nodes il a trouvés.
+
+Une mise à jour de Creative Look garde les power grades déjà déposées dans le dossier « data ».

@@ -1,0 +1,46 @@
+CREATIVE LOOK — LICENCE D'UTILISATION (version bêta)
+
+Creative Look est édité par Creative Nadir. En installant ou en utilisant Creative Look, tu acceptes cette licence.
+
+1. Ce que tu peux faire
+   - Installer Creative Look sur tes propres ordinateurs et l'utiliser pour tes projets personnels et professionnels,
+     y compris des projets payés par tes clients.
+   - Garder tous les droits sur les images et les vidéos que tu étalonnes avec : elles t'appartiennent.
+   - Utiliser dans tes propres projets les LUT et les planches que le panneau exporte.
+
+2. Ce que tu ne peux pas faire
+   - Vendre, louer, prêter ou partager Creative Look, son archive ou ses fichiers, gratuitement ou non.
+   - Revendre ou redistribuer les looks, les LUT (fournies ou exportées) ou les recettes, seuls ou dans un pack.
+   - Modifier, décompiler ou copier tout ou partie du panneau pour en faire un autre produit.
+   - Retirer ou masquer le nom Creative Look ou cette licence.
+
+3. Propriété
+   Le panneau, son code, son interface, ses looks et ses LUT restent la propriété de Creative Nadir. Cette licence te
+   donne un droit d'utilisation personnel, non exclusif et non transférable. Elle ne te vend pas le logiciel.
+   Les images des vignettes viennent des tournages de Creative Nadir ou de photos du domaine public (CC0).
+
+4. Bêta
+   Cette version est gratuite et sert aux tests. Elle peut contenir des erreurs, changer ou cesser d'être proposée.
+   Les versions payantes à venir auront leurs propres conditions. Ne travaille jamais sans sauvegarde de tes projets.
+
+5. Aucune garantie
+   Creative Look est fourni « en l'état », sans garantie d'aucune sorte. Dans toute la mesure permise par la loi,
+   Creative Nadir n'est pas responsable des pertes de données, de temps ou de revenus liées à son utilisation.
+
+6. Tes données
+   Le panneau ne transmet aucune donnée sur Internet. Tout reste sur ton ordinateur. Les rapports de support ne
+   partent que si tu les envoies toi-même.
+
+7. Marques
+   DaVinci Resolve est une marque de Blackmagic Design. Creative Look n'est ni affilié à Blackmagic Design ni approuvé
+   par elle. Les noms des looks évoquent des ambiances de couleur : ils n'indiquent aucun lien avec un film, un studio
+   ou leurs ayants droit.
+
+8. Fin de la licence
+   La licence prend fin automatiquement si tu ne la respectes pas. Tu dois alors désinstaller Creative Look et
+   supprimer ses fichiers.
+
+9. Droit applicable
+   Cette licence est soumise au droit français.
+
+Contact : onglet « Issues » du dépôt GitHub de la bêta.
